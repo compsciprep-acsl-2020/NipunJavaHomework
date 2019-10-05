@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class HelloWorld {
+public class BinaryNumber {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int decimal = sc.nextInt();
@@ -45,6 +45,8 @@ public class HelloWorld {
             zero1 = 1;
             decimal = decimal - zero;
         }
-        System.out.println(seven1 + "" + six1 + "" + five1 + "" + four1 + "" + three1 + "" +  two1 + "" + one1 + "" + zero1);
+
+//        System.out.println(seven1 + "" + six1 + "" + five1 + "" + four1 + "" + three1 + "" +  two1 + "" + one1 + "" + zero1);
+            System.out.println(Integer.toBinaryString(decimal));
     }
 }
